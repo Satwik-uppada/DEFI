@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor Appointment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Doctor Appointment System</h1>
+  
+  <div id="addPatientForm">
+    <h2>Add Patient</h2>
+    <input type="text" id="firstName" placeholder="First Name">
+    <input type="text" id="lastName" placeholder="Last Name">
+    <input type="number" id="age" placeholder="Age">
+    <input type="text" id="gender" placeholder="Gender">
+    <button onclick="addPatient()">Add Patient</button>
+  </div>
+
+  <div id="getPatientForm">
+    <h2>Get Patient</h2>
+    <input type="number" id="patientId" placeholder="Patient ID">
+    <button onclick="getPatient()">Get Patient</button>
+  </div>
+
+  <div id="output" ></div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
